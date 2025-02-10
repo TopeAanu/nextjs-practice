@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Link from "next/link";
 
 export default function NewsPage() {
   return (
@@ -6,7 +7,7 @@ export default function NewsPage() {
       <h1>News Page</h1>
       <ul>
         <li>
-          <a href='/news/nextjs-is-a-great-framework'>Nextjs is really cool😎</a>
+          <Link href='/news/nextjs-is-a-great-framework'>Nextjs is really cool😎</Link>
         </li>
         <li>
           Something else
